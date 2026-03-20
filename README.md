@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue" alt="Platform">
   <img src="https://img.shields.io/badge/framework-Flutter-02569B" alt="Framework">
   <img src="https://img.shields.io/badge/state%20management-Riverpod-FF6B6B" alt="State Management">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/license-Non--Commercial-ff69b4" alt="License">
   <img src="https://img.shields.io/badge/privacy-first-important" alt="Privacy First">
 </p>
 
@@ -133,7 +133,7 @@ dependencies:
 
 ## 📄 许可证 (License)
 
-本项目采用 **MIT 许可证**。详见 [LICENSE](LICENSE) 文件。
+本项目采用 **非商业许可证**。详见 [LICENSE](LICENSE) 文件。禁止商业使用，如需商业许可请联系作者。
 
 ## 🤝 贡献指南 (Contributing)
 
@@ -141,7 +141,7 @@ dependencies:
 
 ## 🐛 问题反馈 (Issues)
 
-如遇问题，请先查阅 [FAQ](docs/FAQ.md)。若未解决，请在 [Issues](https://github.com/yourname/unibalance/issues) 页面提交。
+如遇问题，请先查阅 [FAQ](docs/FAQ.md)。若未解决，请在 [Issues](https://github.com/aishangwuji/APIguanli/issues) 页面提交。
 
 ---
 
