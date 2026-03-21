@@ -1,0 +1,46 @@
+{
+  "@@locale": "en",
+  "appTitle": "UniBalance",
+  "noProviders": "No monitored providers",
+  "addFirstProvider": "Tap + to add your first API provider",
+  "addProvider": "Add Provider",
+  "enterApiKey": "Enter your {name} API Key",
+  "@enterApiKey": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "apiKeyStored": "Your API key is stored locally only",
+  "cancel": "Cancel",
+  "add": "Add",
+  "used": "Used",
+  "available": "Available",
+  "total": "Total",
+  "tapToRefresh": "Tap to refresh balance",
+  "settings": "Settings",
+  "security": "Security",
+  "biometricAuth": "Biometric Authentication",
+  "biometricDesc": "Use Face ID or Touch ID to unlock",
+  "biometricUnavailable": "Biometrics not available",
+  "display": "Display",
+  "theme": "Theme",
+  "themeSystem": "Follow System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "currency": "Currency",
+  "alerts": "Alerts",
+  "alertThreshold": "Alert Threshold",
+  "about": "About",
+  "privacyPolicy": "Privacy Policy",
+  "version": "Version",
+  "alreadyAdded": "{name} already added",
+  "@alreadyAdded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

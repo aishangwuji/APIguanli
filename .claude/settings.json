@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter:*)",
+      "Bash(dart:*)",
+      "Bash(pub:*)",
+      "Bash(git:*)",
+      "Edit",
+      "Write",
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(npm:*)",
+      "Bash(yarn:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_response.filePath // .tool_input.file_path' | { read -r f; if [[ \"$f\" == *.dart ]]; then dart format \"$f\" 2>/dev/null || true; fi; }",
+            "timeout": 30,
+            "statusMessage": "格式化Dart代码..."
+          },
+          {
+            "type": "command",
+            "command": "jq -r '.tool_response.filePath // .tool_input.file_path' | { read -r f; if [[ \"$f\" == *_test.dart ]]; then flutter test \"$f\" 2>/dev/null || true; fi; }",
+            "timeout": 120,
+            "statusMessage": "运行Dart测试..."
+          }
+        ]
+      }
+    ]
+  }
+}

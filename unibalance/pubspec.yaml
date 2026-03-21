@@ -1,0 +1,49 @@
+name: unibalance
+description: "UniBalance - 多模型 API 余额监控卫士"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Networking
+  dio: ^5.8.0
+
+  # Local Secure Storage
+  flutter_secure_storage: ^9.2.4
+
+  # Local Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Charts
+  fl_chart: ^0.70.2
+
+  # Security
+  local_auth: ^2.3.0
+
+  # Home Widgets
+  home_widget: ^0.7.0
+
+  # Utilities
+  intl: ^0.20.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
